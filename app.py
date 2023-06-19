@@ -14,7 +14,7 @@ st.set_page_config(page_title ='Accident Severity Prediction App',
 
 #creating option list for dropdown menu
 
-options_day = ['Su-nday', 'Monday', 'Tuesday', 'Wednensday', 'Thursday', 'Friday', 'Saturday']
+options_day = ['Sunday', 'Monday', 'Tuesday', 'Wednensday', 'Thursday', 'Friday', 'Saturday']
 options_age = ['18-30', '31-50', 'Over 51', 'Unknown', 'Under 18']
 
 options_acc_area = ['Other', 'Office areas', 'Residential areas', 'Church areas'
@@ -24,7 +24,7 @@ options_acc_area = ['Other', 'Office areas', 'Residential areas', 'Church areas'
                     'Recreational areas']
 
 options_cause = ['No distancing', 'Changing lane to the right', 
-                 'Changing lane to the lef', 'Driving carelessly',
+                 'Changing lane to the left', 'Driving carelessly',
                  'No priority to vehicle', 'Moving backward', 
                  'No priority to pedestrain', 'Other', 'Overtaking', 
                  "Driving under the influence of drugs", 'Driving to the left',
